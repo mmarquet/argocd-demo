@@ -48,4 +48,3 @@ spec:
             name: k3s-demo
             port:
               name: http
-~                           
