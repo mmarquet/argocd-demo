@@ -15,7 +15,8 @@ spec:
     spec:
       containers:
       - name: k3s-demo
-        image: ruanbekker/rpi-hostname:latest
+        #image: ruanbekker/rpi-hostname:latest
+        image: aarch64/hello-world
 ---
 apiVersion: v1
 kind: Service
