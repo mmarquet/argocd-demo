@@ -4,7 +4,7 @@ metadata:
   name: k3s-demo
   namespace: demo
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: k3s-demo
